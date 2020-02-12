@@ -18,3 +18,4 @@ samples, guidance on mobile development, and a full API reference.
 1. 使用overlay依然會被鍵盤遮擋
 2. 使用overlay remove後，馬上調用new overlay再inser，不會有閃爍情況
 3. overlay顯示後，可以使用Animated來控制overlay的Widget元件
+4. 目前無法拿到context，需再elementTree外層包覆限定widget
